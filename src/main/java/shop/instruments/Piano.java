@@ -12,7 +12,7 @@ public class Piano extends Instrument implements IPlayable, ISellable {
     }
 
     public int getKeys() {
-        return keys;
+        return this.keys;
     }
 
     public String play(){

@@ -13,7 +13,6 @@ public class GuitarTest {
         guitar = new Guitar(12, "Very heavy metal", "red", "electric");
     }
 
-
     @Test
     public void hasStrings(){
         assertEquals(12, guitar.getStrings());
@@ -38,7 +37,5 @@ public class GuitarTest {
     public void guitarCanPlay(){
         assertEquals("I wanna rock 'n' roll all night... And party every day", guitar.play());
     }
-
-
 
 }
