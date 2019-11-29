@@ -1,6 +1,6 @@
 package accessories;
 
-import shop.ISellable;
+import iSellable.ISellable;
 
 public class Item implements ISellable {
 

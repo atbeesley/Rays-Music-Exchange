@@ -37,8 +37,4 @@ public class ItemTest {
         assertEquals(8, item3.markUp());
     }
 
-
-
-
-
 }

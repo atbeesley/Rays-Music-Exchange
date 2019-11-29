@@ -1,6 +1,6 @@
-package shop.instruments;
+package instruments;
 
-import shop.ISellable;
+import iSellable.ISellable;
 
 public abstract class Instrument implements ISellable {
 

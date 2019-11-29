@@ -1,6 +1,4 @@
-package shop.instruments;
-
-import shop.ISellable;
+package instruments;
 
 public class Piano extends Instrument implements IPlayable {
 

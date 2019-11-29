@@ -2,7 +2,34 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a58c92-dd67-4fe1-85e2-3dff9bbb61ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/ShopTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessories/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accessories/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/ISellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/iSellable/ISellable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Guitar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/IPlayable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/IPlayable.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Instrument.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Piano.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/instruments/Trumpet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/GuitarTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RoomTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TrumpetTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/accessories/Item.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/accessories/Item.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/ISellable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Guitar.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/IPlayable.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Instrument.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Piano.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Trumpet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/GuitarTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/PianoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/PianoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/RoomTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TrumpetTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TrumpetTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,6 +73,9 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="instruments" />
     </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
@@ -62,21 +92,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ItemTest.itemHasMarkUp">
+  <component name="RunManager" selected="JUnit.ShopTest">
     <configuration name="All in 5_day" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="5_day" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ItemTest.hasType" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="5_day" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ItemTest" />
-      <option name="METHOD_NAME" value="hasType" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -91,31 +111,42 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PianoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="5_day" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="PianoTest" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TrumpetTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopTest.canRemoveItemFromStock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="5_day" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="TrumpetTest" />
-      <option name="TEST_OBJECT" value="class" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="canRemoveItemFromStock" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShopTest.stockStartsEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="5_day" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ShopTest" />
+      <option name="METHOD_NAME" value="stockStartsEmpty" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ItemTest.itemHasMarkUp" />
+        <item itemvalue="JUnit.ShopTest" />
+        <item itemvalue="JUnit.ShopTest.canRemoveItemFromStock" />
         <item itemvalue="JUnit.All in 5_day" />
-        <item itemvalue="JUnit.ItemTest.hasType" />
-        <item itemvalue="JUnit.TrumpetTest" />
-        <item itemvalue="JUnit.PianoTest" />
+        <item itemvalue="JUnit.ShopTest.stockStartsEmpty" />
+        <item itemvalue="JUnit.ItemTest.itemHasMarkUp" />
       </list>
     </recent_temporary>
   </component>

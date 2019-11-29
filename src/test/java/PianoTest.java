@@ -1,6 +1,6 @@
 import org.junit.Before;
 import org.junit.Test;
-import shop.instruments.Piano;
+import instruments.Piano;
 
 import static junit.framework.TestCase.assertEquals;
 
