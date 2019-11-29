@@ -2,33 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a58c92-dd67-4fe1-85e2-3dff9bbb61ae" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ItemTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/ISellable.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/ISellable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/Shop.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/Shop.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/accessories/DrumStick.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/accessories/GuitarString.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/accessories/SheetMusic.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/accessories/ValveOil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Guitar.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/instruments/Guitar.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Instrument.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/instruments/Instrument.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Piano.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/instruments/Piano.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/shop/instruments/Trumpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/shop/instruments/Trumpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/DrumStickTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/GuitarStringTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/PianoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/PianoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/SheetMusicTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ValveOilTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/ISellable.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/Shop.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/accessories/DrumStick.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/accessories/GuitarString.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/accessories/SheetMusic.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/accessories/ValveOil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Guitar.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Instrument.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Piano.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/shop/instruments/Trumpet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/accessories/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accessories/Item.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />

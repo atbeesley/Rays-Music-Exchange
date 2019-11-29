@@ -22,10 +22,15 @@ public class ItemTest {
         assertEquals("Guitar strings", item.getType());
     }
 
-//    @Test
-//    public void hasType(){
-//
-//    }
+    @Test
+    public void hasPriceBought(){
+        assertEquals(2, item2.getPriceBought());
+    }
+
+    @Test
+    public void hasPriceToSell(){
+        assertEquals(11, item3.getPriceToSell());
+    }
 
 
 
