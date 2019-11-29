@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="68a58c92-dd67-4fe1-85e2-3dff9bbb61ae" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/accessories/Item.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/accessories/Item.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/ItemTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ItemTest.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -63,20 +62,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.All in 5_day">
+  <component name="RunManager" selected="JUnit.ItemTest.itemHasMarkUp">
     <configuration name="All in 5_day" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="5_day" />
       <option name="PACKAGE_NAME" value="" />
       <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GuitarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="5_day" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="GuitarTest" />
-      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -86,6 +76,16 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="ItemTest" />
       <option name="METHOD_NAME" value="hasType" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ItemTest.itemHasMarkUp" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="5_day" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ItemTest" />
+      <option name="METHOD_NAME" value="itemHasMarkUp" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -111,11 +111,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.ItemTest.itemHasMarkUp" />
         <item itemvalue="JUnit.All in 5_day" />
         <item itemvalue="JUnit.ItemTest.hasType" />
         <item itemvalue="JUnit.TrumpetTest" />
         <item itemvalue="JUnit.PianoTest" />
-        <item itemvalue="JUnit.GuitarTest" />
       </list>
     </recent_temporary>
   </component>

@@ -32,6 +32,12 @@ public class ItemTest {
         assertEquals(11, item3.getPriceToSell());
     }
 
+    @Test
+    public void itemHasMarkUp(){
+        assertEquals(8, item3.markUp());
+    }
+
+
 
 
 
