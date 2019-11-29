@@ -10,16 +10,16 @@ public class PianoTest {
 
     @Before
     public void before(){
-        piano = new Piano(88, "wood", "black", "grand");
+        piano = new Piano(88, "wood", "black", "grand", 60, 160);
     }
 
-    @Test
-     public void hasKeys(){
+        @Test
+        public void hasKeys(){
         assertEquals(88, piano.getKeys());
         }
 
-      @Test
-      public void hasMaterial(){
+        @Test
+        public void hasMaterial(){
         assertEquals("wood", piano.getMaterial());
         }
 

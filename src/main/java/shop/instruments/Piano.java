@@ -2,12 +2,12 @@ package shop.instruments;
 
 import shop.ISellable;
 
-public class Piano extends Instrument implements IPlayable, ISellable {
+public class Piano extends Instrument implements IPlayable {
 
     private int keys;
 
-    public Piano(int keys, String material, String colour, String type){
-        super(material, colour, type);
+    public Piano(int keys, String material, String colour, String type, int priceBought, int priceToSell){
+        super(material, colour, type, priceBought, priceToSell);
         this.keys = keys;
     }
 

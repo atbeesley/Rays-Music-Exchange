@@ -10,7 +10,7 @@ public class TrumpetTest {
 
     @Before
     public void before(){
-    trumpet = new Trumpet(3, "brass", "gold", "normal");
+    trumpet = new Trumpet(3, "brass", "gold", "normal", 50, 100);
     }
 
     @Test
